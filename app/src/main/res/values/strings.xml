@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="myName">Lawal Azeez</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Nigeria</string>
+    <string name="email">Email: azeezco1@gmail.com</string>
+    <string name="phone_No">Phone Number: 2348133715780</string>
+    <string name="slack_username_azeezco">Slack Username: @Azeezco</string>
+</resources>

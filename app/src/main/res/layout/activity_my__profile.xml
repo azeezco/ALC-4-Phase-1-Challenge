@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_Profile">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#FDECF2">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/myPix"
+           android:layout_width="202dp"
+           android:layout_height="182dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="60dp"
+           android:src="@drawable/heyz1"
+           />
+
+       <TextView
+           android:id="@+id/myName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/myPix"
+           android:layout_marginTop="10dp"
+           android:text="@string/myName"
+           android:gravity="center_horizontal"
+           android:textSize="39sp"
+           android:fontFamily="@font/black_melody"/>
+       <TableRow
+       android:id="@+id/hr"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#444"
+       android:layout_below="@id/myName"/>
+
+       <LinearLayout
+           android:layout_below="@id/myName"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:weightSum="5"
+           android:layout_marginLeft="15dp"
+           android:layout_marginStart="15dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="25dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/track"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:textSize="23sp"
+               android:fontFamily="@font/roboto_medium"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/country"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:textSize="23sp"
+               android:fontFamily="@font/roboto_medium"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/email"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:textSize="23sp"
+               android:fontFamily="@font/roboto_medium"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/phone_No"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:textSize="23sp"
+               android:fontFamily="@font/roboto_medium"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/slack_username_azeezco"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:textSize="23sp"
+               android:fontFamily="@font/roboto_medium"/>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</FrameLayout>
